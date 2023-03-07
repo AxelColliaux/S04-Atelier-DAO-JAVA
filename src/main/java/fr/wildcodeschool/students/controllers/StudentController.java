@@ -17,7 +17,7 @@ import java.util.List;
 public class StudentController {
 
     @Autowired
-    @Qualifier("studentRepoTls")
+    @Qualifier("studentRepoBdx")
     private StudentDao studentDao;
 
     @ResponseBody
